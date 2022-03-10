@@ -17,13 +17,12 @@
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
 .App-link {
   color: #61dafb;
 }
@@ -35,4 +34,45 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.container {
+  width: 320px;
+  height: 500px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  border-style: solid;
+  border-color: rgb(145, 145, 238);
+}
+
+.img {
+  height: 300px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.title{
+  margin: 0;
+  font-size: 20px;
+  float: left;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+.price {
+  padding-left: 20px;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.tag {
+  font-size: 10px;
+  color: rgb(154, 205, 240);
+  background-color: rgb(68, 78, 82);
+  width: 80px;
+  margin-left: 20px;
+  border-style: none;
+  border-radius: 20px;
 }
