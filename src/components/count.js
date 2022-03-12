@@ -6,10 +6,10 @@ function Conteo() {
 
     return (
         <div className="botoncompra">
-            <button onClick={() => setCount(count + 1)}>Comprar</button>
-            <Badge pill bg="primary">
-                Shopping Car {count}
+            <Badge className="sc" pill bg="primary">
+                Shopping Cart {count}
             </Badge>{' '}
+            <button className="btnsc" onClick={() => setCount(count + 1)}>Comprar</button>
         </div>
     )
 }

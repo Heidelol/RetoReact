@@ -77,3 +77,13 @@
   border-style: none;
   border-radius: 20px;
 }
+
+.botoncompra {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 10px;
+}
+
+.sc {
+  margin-left: 5px;
+}

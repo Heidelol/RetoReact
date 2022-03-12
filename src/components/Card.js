@@ -8,7 +8,7 @@ export function Card(props) {
             <img className='img'  src={props.img} alt="" />
             <h1 className='title'>{props.producto}</h1>
             <span className='price'>{props.precio}</span>
-            <button  className='tag'>{props.tag}</button>            
+            <button  className='tag'>{props.tag}</button>      
         </div>
     )
 }

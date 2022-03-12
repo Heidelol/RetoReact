@@ -6,6 +6,9 @@ import Count from './components/count'
 function App() {
   return (
     <div className="App">
+      <nav>
+        <Count />
+      </nav>
       <main className="App-header">
         <Card 
         img ='https://th.bing.com/th/id/OIP.6HY1kWt52qwYAv-Q14tuvQHaHa?pid=ImgDet&rs=1'
@@ -14,7 +17,7 @@ function App() {
         tag="#MenClothing"
         > 
         </Card>
-        <Count />
+          
         <Card 
         img="https://th.bing.com/th/id/OIP.hziUmFUTbAgFI7ynEy1qMwHaHa?pid=ImgDet&rs=1"
         producto="Playera Azul"
